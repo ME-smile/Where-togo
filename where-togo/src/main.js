@@ -2,10 +2,11 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
 import App from './App'
-import './assets/styles/reset.css'
-import './assets/styles/border.css'
+import 'S/reset.css'
+import 'S/border.css'
 import router from './router'
 import fastClick from 'fastclick'
+import 'S/iconfont.css'
 
 Vue.config.productionTip = false
 fastClick.attach(document.body)
